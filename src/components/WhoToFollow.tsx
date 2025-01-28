@@ -31,7 +31,7 @@ const WhoToFollow = async() => {
                   <p className='text-muted-foreground'>@{user._count.followers} followers</p>
                 </div>
             </div>
-            <FollowButton />
+            <FollowButton userId={user.id}/>
           </div>
         ))}
       </div>
